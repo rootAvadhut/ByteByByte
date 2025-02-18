@@ -1,13 +1,13 @@
-Absolutely! Below is the content wrapped in a `.md` (Markdown) file format with a title and proper formatting for LinkedIn. You can copy this into a `.md` file and share it on LinkedIn.
 
----
 
-```markdown
+
+
+
 # How JavaScript Code is Executed: A Deep Dive
 
 When you run a JavaScript program, the JavaScript engine creates an **Execution Context** to manage the execution of the code. Let’s break down how this works step by step with an example.
 
----
+
 
 ## Example Code
 
@@ -37,18 +37,21 @@ Each function invocation creates a new **Execution Context**, and the **Call Sta
 
 ```
 Global Execution Context (GEC):
----------------------------------
-| Memory          | Code        |
----------------------------------
-| n: undefined    |             |
-| square: { ... } | (function)  |
-| square2: undefined |           |
-| square4: undefined |           |
----------------------------------
+------------------------------------
+| Memory             | Code         |
+------------------------------------
+| n: undefined       |              |
+| square: { ... }    | (function)   |
+| square2: undefined |              |
+| square4: undefined |              |
+------------------------------------
 ```
 
 - Variables are initialized with `undefined`.
 - Functions are stored in memory as a whole.
+
+![Value Assign Before Execution](https://raw.githubusercontent.com/rootAvadhut/JavaScriptLearning/main/Day%2002/valueAssignBeforeExecution.png)
+
 
 ---
 
@@ -58,14 +61,17 @@ Global Execution Context (GEC):
    ```
    Global Execution Context (GEC):
    ---------------------------------
-   | Memory          | Code        |
+   | Memory             | Code      |
    ---------------------------------
-   | n: 2           |             |
-   | square: { ... } | (function)  |
+   | n: 2               |           |
+   | square: { ... }    | (function)|
    | square2: undefined |           |
    | square4: undefined |           |
    ---------------------------------
    ```
+    
+![Storing Undefined to Const](https://raw.githubusercontent.com/rootAvadhut/JavaScriptLearning/main/Day%2002/storingUndefinedToConst.png)
+
 
 2. **Line 6:** `square(n)` is invoked.
    - A new **Local Execution Context (EC1)** is created for `square`.
@@ -76,6 +82,8 @@ Global Execution Context (GEC):
    | Global EC (GEC)   |
    ---------------------
    ```
+![Local Execution Context](https://raw.githubusercontent.com/rootAvadhut/JavaScriptLearning/main/Day%2002/new%20Local%20Execution%20Context%20(EC1)%20is%20created.png)
+
 
    **Local Execution Context (EC1) - Memory Allocation Phase:**
    ```
@@ -106,11 +114,11 @@ Global Execution Context (GEC):
    ```
    Global Execution Context (GEC):
    ---------------------------------
-   | Memory          | Code        |
+   | Memory             | Code      |
    ---------------------------------
-   | n: 2           |             |
-   | square: { ... } | (function)  |
-   | square2: 4     |             |
+   | n: 2               |           |
+   | square: { ... }    | (function)|
+   | square2: 4         |           |
    | square4: undefined |           |
    ---------------------------------
    ```
@@ -162,12 +170,12 @@ Global Execution Context (GEC):
    ```
    Global Execution Context (GEC):
    ---------------------------------
-   | Memory          | Code        |
+   | Memory             | Code      |
    ---------------------------------
-   | n: 2           |             |
-   | square: { ... } | (function)  |
-   | square2: 4     |             |
-   | square4: 16    |             |
+   | n: 2               |           |
+   | square: { ... }    | (function)|
+   | square2: 4         |           |
+   | square4: 16        |           |
    ---------------------------------
    ```
 
@@ -241,5 +249,6 @@ The **Call Stack** maintains the order of execution contexts. Here’s how it wo
 - The **Code Execution Phase** runs the code and assigns values.
 - Functions create their own Execution Contexts, which are managed in the Call Stack.
 
----
+
+
 
