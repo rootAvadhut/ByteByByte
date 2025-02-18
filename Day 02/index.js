@@ -1,3 +1,7 @@
+console.log(n);
+console.log(square);
+
+
 var n = 2;
 function square(num) {
     var ans = num * num;
@@ -5,3 +9,5 @@ function square(num) {
 }
 var square2 = square(n);
 var square4 = square(4);
+console.log(square2);
+console.log(square4);
