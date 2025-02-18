@@ -1,5 +1,7 @@
 console.log(n);
 console.log(square);
+console.log(square2);
+console.log(square4);
 
 
 var n = 2;
