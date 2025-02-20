@@ -8,5 +8,8 @@ public static void main(String[] args) {
     System.out.println("str2 HashCode: "+str2.hashCode());
     System.out.println("str3 HashCode: "+str3.hashCode());
     if(str2==str3) {System.out.println("pointing to same memory location: "+true);}
+    String str4 = new String("Hello");
+    String str5 = str4.intern(); 
+    System.out.println(str4.hashCode()+""+str5.hashCode());
 }
 }
