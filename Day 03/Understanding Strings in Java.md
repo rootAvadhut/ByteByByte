@@ -93,14 +93,21 @@ Heap Memory:        String Constant Pool:
 ```
 - `str4` is stored in **Heap Memory**, while `str5` **references the SCP object**.
 
+![Intern Method Diagram](https://raw.githubusercontent.com/rootAvadhut/linkedinPosts/main/Day%2003/internMethod.png)
+
 ---
 
 ## 🎯 Key Takeaways
-✅ Using `new` keyword **always creates a new object** in Heap Memory.
-✅ String literals **reuse objects** in the **String Constant Pool**.
-✅ **Garbage Collector (GC)** does not clean SCP unless explicitly removed.
-✅ Using `.intern()` helps reference **SCP objects explicitly**.
-✅ String Pool **reduces memory usage and optimizes performance**.
+#### ✅ Using `new` keyword **always creates a new object** in Heap Memory.
+---
+#### ✅ String literals **reuse objects** in the **String Constant Pool**.
+---
+#### ✅ **Garbage Collector (GC)** does not clean SCP unless explicitly removed.
+---
+#### ✅ Using `.intern()` helps reference **SCP objects explicitly**.
+---
+#### ✅ String Pool **reduces memory usage and optimizes performance**.
+---
 
 Let me know if you have any thoughts or improvements! 🚀
 
