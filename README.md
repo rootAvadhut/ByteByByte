@@ -17,6 +17,5 @@ Each folder represents a new learning topic, with **resources like PDFs, code sn
 
 ## 📌 Connect With Me  
 💼 [LinkedIn](https://www.linkedin.com/in/avadhut-shinde-a4732a1b4)  
-🐦 [Twitter]
-(https://x.com/AvadhutDev?t=9HzwkQ8YbDSkX_C25qMlng&s=09)
-📧 [Email](avadhutshinde92@gmail.com)
+🐦 [Twitter](https://x.com/AvadhutDev?t=9HzwkQ8YbDSkX_C25qMlng&s=09)  
+📧 avadhutshinde92@gmail.com
