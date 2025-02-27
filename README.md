@@ -1,4 +1,3 @@
-
 # 📘 ByteByByte  
 *A collection of my learning notes, coding concepts, and technical insights across multiple domains like Java, JavaScript, DevOps, and more!*  
 
@@ -18,5 +17,6 @@ Each folder represents a new learning topic, with **resources like PDFs, code sn
 
 ## 📌 Connect With Me  
 💼 [LinkedIn](https://www.linkedin.com/in/avadhut-shinde-a4732a1b4)  
-🐦 [Twitter]([https://twitter.com/](https://x.com/AvadhutDev?t=9HzwkQ8YbDSkX_C25qMlng&s=09)) (Replace with your handle)  
+🐦 [Twitter]
+(https://x.com/AvadhutDev?t=9HzwkQ8YbDSkX_C25qMlng&s=09)(Replace with your handle)  
 📧 [Email](avadhutshinde92@gmail.com)
